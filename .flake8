@@ -1,0 +1,12 @@
+[flake8]
+max-line-length = 99
+exclude =
+    venv*/*
+    env*/*
+    */__init__.py
+    */*/__init__.py
+    __init__.py
+    alembic/*
+ignore =
+    E203
+    W503
