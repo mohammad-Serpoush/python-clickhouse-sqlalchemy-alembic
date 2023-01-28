@@ -21,7 +21,7 @@ $ docker compose up
 
 To generate new migration:
 ```
-$ alembic revision --autogenerate -m < migartion_name >
+$ alembic revision --autogenerate -m <migartion_name>
 ```
 To update database with the last migration:
 ```
